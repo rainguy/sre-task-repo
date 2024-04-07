@@ -7,7 +7,7 @@ serverFiles:
         # Alert for any instance that is unreachable for >5 minutes.
         - alert: InstanceDown
           expr: up{job="kubernetes-nodes"} == 0
-          for: 5m
+          for: 2m
           labels:
             severity: page
           annotations:
