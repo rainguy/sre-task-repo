@@ -11,7 +11,7 @@ route:
 receivers:
 - name: 'slack-notifications'
   slack_configs:
-  - channel: '#upcommerce-devs'
+  - channel: '#upcommerce-devs-ar9fe4k'
     send_resolved: true
     api_url: 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX'
     title: '{{ range .Alerts }}{{ .Annotations.summary }}\n{{ end }}'
