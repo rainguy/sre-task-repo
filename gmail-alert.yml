@@ -11,7 +11,7 @@ alertmanagerFiles:
         smarthost: smtp.gmail.com:587
         auth_username: some_fake@gmail.com # Update your from mail id here
         auth_identity: some_fake@gmail.com # Update your from mail id here
-        auth_password: fake_47snd^5m # Update your app-password here
+        auth_password: faksse_47snd^5m # Update your app-password here
         send_resolved: true
         headers:
           subject: " Prometheus -  Alert  "
